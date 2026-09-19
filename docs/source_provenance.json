@@ -1,0 +1,317 @@
+[
+  {
+    "file": "analysis/audited_reanalysis_v2/extract_verified.py",
+    "source_sha256": "12498c34e1add1b382d2800073c668674a3f2a160ebb8981f0b6e761f64783f9",
+    "public_sha256": "facdd41e52e19e9f1d5ed9f0e095ed68d10037009166ca18e5e8661ac9d4a58f",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR",
+      "PostgreSQL connection settings read from environment",
+      "Local PostgreSQL database names can be overridden by environment"
+    ]
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/build_cohorts.py",
+    "source_sha256": "10ef7b277259f85596ff6178bb18d21c0b0c2e5f3e11f97c8c8968eba764145e",
+    "public_sha256": "f6e8bb1473b65189893724f888d322cb3143ad1cf7deb72c04722e0ffca47b46",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR"
+    ]
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/analyze_verified.py",
+    "source_sha256": "b539299d693077981fb2bdbc20b133994d0af19e4643b78c3d2af8a9d0af5f1a",
+    "public_sha256": "7c01d8926ae9c02ecf8ead8260480debc09e4503d55c033edf1db7ad12892ae8",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/extra_analyses.py",
+    "source_sha256": "92d8a237e94617174bb9d98a422e395c4958a0b7def5dde4741a8a6a4b66bb7e",
+    "public_sha256": "28e07f81057e3bead835559d6d7c1210422f15b20a6ee3b7ba60349b912bf868",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/source_exclusion_sensitivity.py",
+    "source_sha256": "11dc05de4afe9ef4f4a27165cc36919798691fe6a60d8d61eb637b074124688c",
+    "public_sha256": "3382a63ab060f649aec32662e0b03974655c97265d643a520b80ef18f1f53595",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR",
+      "PostgreSQL connection settings read from environment",
+      "Local PostgreSQL database names can be overridden by environment"
+    ]
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/inspect_exclusions.py",
+    "source_sha256": "01b790d9f3bbda64409169041f47ad1dd4df81c296c57f3f2e0387b810bca2f4",
+    "public_sha256": "2fa131be44956c343279b7ce044ad758e5c0e76c179bb6c395e90cde37de72e0",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR",
+      "PostgreSQL connection settings read from environment",
+      "Local PostgreSQL database names can be overridden by environment"
+    ]
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/quantify_residual_confounding.py",
+    "source_sha256": "a28c340a8fc9bb94f5a71bf10a843d179a9416d96d596e61f01f4d8b8fa82620",
+    "public_sha256": "606abe4f3d9f0586088faf430a81c90348fee9f42e073ae4a3d2db0401f6b22c",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/qa_and_tables.py",
+    "source_sha256": "2bcb9adca98487e4f94a921ac9b0907d24f9c688c9e73692ce43aa30c0f0dc45",
+    "public_sha256": "ed0339de690b97f0bba8ee0967730f67dcddebef2b05eee8ca5c789294de8626",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/test_estimand.py",
+    "source_sha256": "b7136905d3b4bda65205907d0f61d6989a3648a40e7979efe8c9824fb72a233d",
+    "public_sha256": "3d935eb96aca18363e6908eeeabba5abc7b79cb52e0b07776cb36e1035dc8c96",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/reviewer_priority_analyses.py",
+    "source_sha256": "dbba9dc31fedcfa57fde7e90023502c5e534d214cd7cbc212456fd4323e47aca",
+    "public_sha256": "def7d5db2f3f70179aaa08799b13b8dfd7baae644bd533d13a542c086724f10b",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/eicu_hospital_bootstrap.py",
+    "source_sha256": "f174c91f08462717c4e0b08500a33563315a5dfe0f0e6dbb688c5448012bdbde",
+    "public_sha256": "d674fcce705ea25f1d17ca7ff5cb3a68a624294f39989a936eb3aced7d6dc64b",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/primary_bootstrap_1000.py",
+    "source_sha256": "adfd6eed0b72e2f6ac9256f086bf0def923ede0a51feac2eb9d4894e7a6f53b7",
+    "public_sha256": "174446e104e62cea87bf4913780ced448d7faaa724224f07577870a8c69411d0",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_reanalysis_v2/make_verified_figures.py",
+    "source_sha256": "f330f4e4010ac85c6f5354b60a61a97e0d9d219a1275724399671d1234aa761e",
+    "public_sha256": "e3e6ef8cf1cc453933a8a34430204644208479f23b22d9bf8beb06e7ca22beab",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/audit_candidates.py",
+    "source_sha256": "cd7af0ca311b1208a2abb8c21cf0098288083ab071dbad5108c1ca89b3f88565",
+    "public_sha256": "4ecf01cded88d5d59c5dabf1436eb97d052061f03b42f06d293113cef6042f2c",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/extract_timestamp_audit.py",
+    "source_sha256": "553505cc0b0182cc9579e817a708db46e5fd6ca72d82b8ea58219e516d2223f3",
+    "public_sha256": "a00ec6cecff814112c788ca7c78ba267f6a3b41f8f15d3e0bf17a14dac6b1595",
+    "changes": [
+      "PostgreSQL connection settings read from environment",
+      "Local PostgreSQL database names can be overridden by environment"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/extract_available_labs.py",
+    "source_sha256": "6c7b77f1f2bdc04a8f27477a816b05d7dd489d7c706de7d3e66397414882f461",
+    "public_sha256": "46e2a1fa0bb65fbebb8fd52c6879dc684c366e9f0ef83029f98fa10562fbcef2",
+    "changes": [
+      "PostgreSQL connection settings read from environment",
+      "Local PostgreSQL database names can be overridden by environment"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/build_revision_audits.py",
+    "source_sha256": "f5a52245b93d70b202e28b9d1d5815186638117d8f0ae24bfbb7453852a5f02e",
+    "public_sha256": "55b71b3e6ea7123dc0a2d9b9928d0e87b40f4959ddb3f35a12d4401900db2d0e",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/validate_revision_data.py",
+    "source_sha256": "74074d2af73e6aa23166105f00b73e336e70320aab6befed9e67c695da1a432f",
+    "public_sha256": "05f60e11eff8c831e583b47f9ad0c46891ab8359fed13ad1857e0cc1e360af4b",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/revision_sensitivity.py",
+    "source_sha256": "d7a5f95fd10b36dfa8271f4eca1b36162e93d86c4c3e744ddfd2a98587cb3a78",
+    "public_sha256": "73665bb39c0e09b1df4d88c8c99b2eeb80554d095f64e55ada1def33cf3fa579",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/parallel_mimic_extension.py",
+    "source_sha256": "9157f40b86175da8770474440b327b50b228553751f3c2d061bf88b8ce9065b0",
+    "public_sha256": "ae6c8754edf27c8d372e8839e6554be55e7de25ad6d417468463e30e3c018548",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/aggregate_revision_evidence.py",
+    "source_sha256": "73f8cb4ef3c886b4da2be416c8e2a3a3f28c9b084d5144e321cf18ec56eb4306",
+    "public_sha256": "6421797a6a8b0e9702660d7b73d915d0eeed8c073a63bd2233288b2a59ae80a8",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v3_20260916/make_revision_figures.py",
+    "source_sha256": "26ddc355036dfccda9131e8a2eb9a3f07bd8dd445024249e2098de50738a3e3a",
+    "public_sha256": "cc7a7a10ba55d520f9ed706b94a760ae4491b9258bdceaddc629ec49937821a1",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v4_20260916/hospital_and_exposure.py",
+    "source_sha256": "478f0ffaedda7fe1e9ea12113b85e9225fa847ad90c3a8fbaa7ea114df7f8efe",
+    "public_sha256": "2fda5a7ce35ba4328bd5cb1d4fa9d665e209d375fbbec220cbdde3b945683fe1",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v4_20260916/extract_sic_minutes.py",
+    "source_sha256": "89b751edd6677d4336b67d939682cfabfa6d5429b951fdf417ebe5b82554bb99",
+    "public_sha256": "53d8345b059f32f7efb61f4b9695ad85698df1eab8437f5655188a78744ec93e",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v4_20260916/validate_sic_minutes.py",
+    "source_sha256": "5b53e4e5af217b3dcb3ea3856f53c88528ef1f49025e9cae3ba731d8d9cdca79",
+    "public_sha256": "650d74151d8470acd8892929767437ac6215d00d19c69162530fa067dab1ab05",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v4_20260916/make_figures.py",
+    "source_sha256": "bbfe4c375bc67c0387519f18b188597647e1e8c337789b68b5faea835a3c3ce9",
+    "public_sha256": "580eacc030701af8502b12f10fa79970dab6bf26606ea38accd0e6cc97f614d7",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/analysis_utils.py",
+    "source_sha256": "84955b26b3c5499629edb7082bf5910696bb4cc4e52b10bd9c111cf5e5bda3b7",
+    "public_sha256": "557b313ba042ed25371bae89d55f467f7f2ee43b54c377938ad258b1c69ef072",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/extract_timing_support.py",
+    "source_sha256": "04fac1a896fefe877d3969fcb8e7df42a1ba467e75ced118412d07801794df6f",
+    "public_sha256": "d4a623056cc4835030a03d947df77203ca9c5b4af9a4411f8c3692349f5c53ab",
+    "changes": [
+      "PostgreSQL connection settings read from environment",
+      "Local PostgreSQL database names can be overridden by environment"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/ventilator_corroboration.py",
+    "source_sha256": "46f30017f140cc156e91640fd0301d50d557aafbda35882e1585c782af35634d",
+    "public_sha256": "706af41119f0879c352a3d0ba526f5a66351f5593efe9267c16b5942cee4b165",
+    "changes": [
+      "PostgreSQL connection settings read from environment",
+      "Local PostgreSQL database names can be overridden by environment"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/support_models.py",
+    "source_sha256": "cac2842632b58e70c62abd7fe834e08258c6f09e78fd47bec22b0f04652d20b7",
+    "public_sha256": "7cde17946fa0cb503277bf3a02a8f54d585d26b1c70ae65fde0b2cb2f5112de4",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/additional_support_models.py",
+    "source_sha256": "546dfb14c1b3b0c2d8542e08ea82d3c9e512a3af89b4596d1ed3af20ab9ff79b",
+    "public_sha256": "bf8952735d9c0e96246d68de14827b455f8c2e69baaf85ec35c651584c17864f",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/paired_minute_models.py",
+    "source_sha256": "8f65edeacb1406cfc6f1c54aed6a2b506e0d9edd493bfed175fec212f95359b6",
+    "public_sha256": "9d6119040991b2ed44d695b37b6a37597cb2e8fc6872e27c18708a9b8c6657c1",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/rare_event_models.py",
+    "source_sha256": "5903dc0cbf020b6285e50d684e4e434de292e282d61b89a29010d694fb88aeb7",
+    "public_sha256": "53905d7b3f79a42674e0beb2f02fb5c590c5fe2a547477cb5493297e369a74ee",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/crossfit_models.py",
+    "source_sha256": "7b278f2be22f7eeae955714b7dc098c9ca3e00b3a2d94533aab92156aaa7ac5f",
+    "public_sha256": "7d1da4926aa6e45504763cdfea05a0e46a0cf1bcc20a37181de69184c7352f1f",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/minute_uncertainty_signal.py",
+    "source_sha256": "403e50d1729b190ce3c813173602d5cf7b2ea6bf2c358cddda0b6168b8bbeedc",
+    "public_sha256": "9b01b2232a5db86ad5b5e66afb768d10e9799c1b50167814d730bcb444e92990",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/audit_new_results.py",
+    "source_sha256": "f2a377c968876ec0e32131a3c3608236c4439e2d3c8ec9b8a3fa0165591af546",
+    "public_sha256": "01f949418e5b547179f7ae79095458f313bef17b36cada2f667eb6883787146a",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v5_20260917/make_figures.py",
+    "source_sha256": "0dc7ded837e4ae71957c78151da9274dd682ed937dd13a4ce1d380fda4674ad3",
+    "public_sha256": "e9a016973fb3b752ba62978f199f0099e77e72cdf0fe3a54cc21e03c01fcaeb4",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v6_20260917/eicu_regularization.py",
+    "source_sha256": "4ada1e8792efe446f8da0933f3225ed3eb488a88ac98e0d73e93dc4c721a07ed",
+    "public_sha256": "c92646ccff65fec74d02d5adf25b768be552b6ff3732576f7af08b391ac1484f",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v6_20260917/eicu_split_sensitivity.py",
+    "source_sha256": "99098675d318bc3c7f7a96260b17e29da7dec93d6a03b78f0c4c6c072db9fe7e",
+    "public_sha256": "d3f715e8e46cd7f42ce7bd007c9cd7c1c54b71b825dc4f17fc8cc39739644412",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v6_20260917/audit_interval_fields.py",
+    "source_sha256": "998cea29610ffbcfa48474ce32b2a45925771431fef4fe34e0691806353dcb57",
+    "public_sha256": "5388104edcc60ce20a807433f29ed38e8eefb4131a98f60de696734dfff743fe",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v6_20260917/sic_candidates.py",
+    "source_sha256": "553507c9d0a6f8066e7dd8cbfa377a409920c935d90089a9fe66b4056ee0795a",
+    "public_sha256": "159039c9ba3d21f5881d80dd5a662b3443ddf1beac43afbc052a2a04dd9fc929",
+    "changes": [
+      "SICdb source directory read from SICDB_DIR"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v6_20260917/sic_measurement_analysis.py",
+    "source_sha256": "bfa7a60b3c298309e912292279c938f1829767e59c4de03ff2b78063da8e356d",
+    "public_sha256": "fbe98e7f25e66f9fb7166455d0ed6a9408f021527cfdcc793f72b2fd77b405fe",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v6_20260917/make_figures.py",
+    "source_sha256": "018048da2f86b7d011a59e282bd7a08fdd23de238adc54c74b0cc7580055fe7f",
+    "public_sha256": "9f46deb831ae94f394229b8aebf0da5535dfeb500a612ae5b259670a6dbc98f5",
+    "changes": [
+      "Separated optional patient-level review rendering from aggregate plotting"
+    ]
+  },
+  {
+    "file": "analysis/audited_revision_v7_20260917/make_figure2.py",
+    "source_sha256": "2cb0cc565ce5412512131e4a9f51386d7cebb1d26e52bd0c7e65bbfaf5af6fe1",
+    "public_sha256": "7c2783111a71b5d71584659cfc0fd55c90d031c2838b3782ab0b44715e26401b",
+    "changes": [
+      "Figure source folder read from AGGREGATE_SOURCE_DIR"
+    ]
+  },
+  {
+    "file": "analysis/editorial_revision_v9_20260918/redraw_s5.py",
+    "source_sha256": "801bcf2cad874128fcfff3897313e7ea744ad23c8fa1255339b4dbe41d49389d",
+    "public_sha256": "a26706a9729d771d199a3abba5aba7be2e51eee2811262c73506d698feab29f2",
+    "changes": []
+  },
+  {
+    "file": "analysis/audited_revision_v6_20260917/render_clinical_review.py",
+    "source": "audited_revision_v6_20260917/make_figures.py",
+    "changes": [
+      "Optional local clinical-review block extracted into separate renderer; no patient inputs bundled"
+    ]
+  }
+]

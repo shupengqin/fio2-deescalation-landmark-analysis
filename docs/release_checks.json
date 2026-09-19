@@ -1,0 +1,9 @@
+{
+  "syntax": "47 Python files parsed",
+  "credential_pattern_scan": "passed",
+  "synthetic_AIPW_fixtures": 2,
+  "unchanged_scientific_scripts": 31,
+  "reference_estimator_unchanged": true,
+  "patient_data_rerun_for_release": false,
+  "governed_input_files_included": false
+}
