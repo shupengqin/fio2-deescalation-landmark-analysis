@@ -1,14 +1,18 @@
-# FiO₂ de-escalation: landmark and measurement analysis
+# Recording availability and time aggregation in documented FiO₂ decreases
 
-Analysis code accompanying **Documented FiO₂ De-escalation and In-Hospital Mortality Across Three Critical-Care Databases: A Landmark and Measurement Analysis**.
+Analysis code accompanying **Recording Availability and Time Aggregation Shape Documented FiO₂ Decreases Across Three Critical-Care Databases: A Measurement and Selection Analysis**.
 
-This repository contains extraction SQL, cohort construction, statistical estimation, diagnostic and figure-generation code for MIMIC-IV, eICU-CRD and SICdb. It is a code-only release of the analysis underlying the September 2026 manuscript revision. Repository creation is not prospective study registration.
+This repository contains extraction SQL, cohort construction, statistical estimation, diagnostic and figure-generation code for MIMIC-IV, eICU-CRD and SICdb. It is a code-only release. Repository creation and later code commits are not prospective study registration.
 
 ## Scientific scope
 
-The reference comparison is the first classifiable opportunity per ICU stay/case: documented FiO₂ reduction of at least 10 percentage points versus stability within ±5 points. Outcome follow-up begins after the classification interval. The reference endpoint is in-hospital mortality; source-specific recorded 28-day death is secondary. Treatment comparability, recording selection, and SICdb hourly/minute measurement definitions are examined separately.
+The primary analyses examine recording availability, cohort selection and exposure reclassification. The comparison uses the first classifiable opportunity per ICU stay/case: a documented between-bin FiO₂ decrease of at least 10 percentage points versus a change within ±5 points. These labels describe selected recorded changes, not verified bedside treatment strategies.
 
-The study is observational and exploratory. This release does not claim a sustained-strategy target trial, formal longitudinal clone-censor-weight analysis, externally validated individualized treatment rule, or clinically adjudicated minute-level gold standard. Post hoc support and measurement analyses do not replace the reference estimate based on significance.
+Minute-level comparisons come only from SICdb, a single-centre source. Comparisons of hourly means, last-valid settings and minute-event rules quantify the size of differences between definitions. They do not validate one definition as clinically correct or establish a clinical gold standard.
+
+MIMIC-IV mortality is retained as an exploratory specification example within the classifiable landmark population. Outcome follow-up begins after the classification interval. eICU-CRD and SICdb mortality estimates are support and model diagnostics because small effective samples and residual imbalance limit interpretation. Source-specific recorded 28-day death is secondary. Treatment comparability, recording selection and measurement definitions are examined separately.
+
+The study is observational and exploratory. Its initial mortality-oriented question was narrowed after recording, support and measurement audits. Historical code and folder names are retained to make that development traceable; the repository slug `fio2-deescalation-landmark-analysis` is retained for stable links. The current manuscript's contribution is the measurement and selection audit. Neither repository naming nor a later revision should be read as prospective registration. Post hoc specifications are not selected according to statistical significance.
 
 ## Start here
 
@@ -22,6 +26,8 @@ The release contains no patient records, source archives, fitted individual pred
 ## Layout
 
 The `analysis/` stage folders must remain siblings because later stages import earlier estimator code. Stage names preserve analysis provenance; they are not competing versions from which to choose a favorable result. The v2 estimator remains the reference. Later stages provide the specified post hoc analyses and figure refinements.
+
+The October 2026 calendar-group extension is in `analysis/posthoc_calendar_groups_20261002/`. It refits the reference spline models within the five existing MIMIC-IV de-identified admission-year groups, with patient-cluster bootstrap intervals and support diagnostics. This is a post hoc descriptive analysis, not an era-interaction test. See that folder's README for execution and interpretation.
 
 Publication preparation scripts that modify author Word documents or Desktop delivery folders are intentionally excluded. The conceptual Figure S5 renderer is retained because it is independent of those author files.
 
